@@ -1,0 +1,2 @@
+include README.md
+recursive-include jordan_e_invoicing *.json *.py *.html *.css *.js
