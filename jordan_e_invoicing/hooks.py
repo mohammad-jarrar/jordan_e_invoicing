@@ -16,3 +16,4 @@ fixtures = [
 doctype_js = {
     "Sales Invoice": "public/js/sales_invoice.js"
 }
+app_include_js = "/assets/jordan_e_invoicing/js/sales_invoice.js"
