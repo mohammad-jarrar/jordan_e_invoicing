@@ -1,3 +1,7 @@
-# Jordan E-Invoicing
+## jordan_e_invoicing
 
-This app integrates ERPNext with Jordan E-Invoicing (JoFotara) API for submitting invoices electronically.
+Integration with Jordan E-Invoicing (JoFotara)
+
+#### License
+
+mit

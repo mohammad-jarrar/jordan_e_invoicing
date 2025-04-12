@@ -1,0 +1,8 @@
+{
+    "css/jordan_e_invoicing.css": [
+      "public/css/jordan_e_invoicing.css"
+    ],
+    "js/jordan_e_invoicing.js": [
+      "public/js/sales_invoice.js"
+    ]
+  }
