@@ -10,6 +10,7 @@ app_license = "MIT"
 # Include Doctypes in the module
 fixtures = [
     {"dt": "DocType", "filters": [["module", "=", "Jordan E-Invoicing"]]}
+ {"dt": "Module Def", "filters": [["module_name", "=", "Jordan E-Invoicing"]]}
 ]
 
 # Link JavaScript to Sales Invoice
