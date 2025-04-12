@@ -1,0 +1,14 @@
+{
+  "name": "jordan_e_invoicing",
+  "version": "1.0.0",
+  "description": "Jordan E-Invoicing app for the Frappe framework",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild --apps jordan_e_invoicing --run-build-command"
+  },
+  "author": "Mohammad Jarrar",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.17.0"
+  }
+}
