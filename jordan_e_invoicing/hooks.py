@@ -18,3 +18,4 @@ doctype_js = {
     "Sales Invoice": "public/js/sales_invoice.js"
 }
 app_include_js = "/assets/jordan_e_invoicing/js/sales_invoice.js"
+after_install = "jordan_e_invoicing.install.create_e_invoicing_settings"
