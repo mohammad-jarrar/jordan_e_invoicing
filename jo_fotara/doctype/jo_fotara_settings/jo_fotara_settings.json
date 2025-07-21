@@ -1,0 +1,55 @@
+{
+    "doctype": "DocType",
+    "name": "JoFotara Settings",
+    "module": "JoFotara",
+    "custom": 1,
+    "istable": 0,
+    "fields": [
+        {
+            "fieldname": "company",
+            "fieldtype": "Link",
+            "label": "Company",
+            "options": "Company",
+            "reqd": 1
+        },
+        {
+            "fieldname": "client_id",
+            "fieldtype": "Data",
+            "label": "Client ID",
+            "reqd": 1
+        },
+        {
+            "fieldname": "secret_key",
+            "fieldtype": "Password",
+            "label": "Secret Key",
+            "reqd": 1
+        },
+        {
+            "fieldname": "taxpayer_type",
+            "fieldtype": "Select",
+            "label": "Taxpayer Type",
+            "options": "Income\nGeneral Sales\nSpecial Sales",
+            "reqd": 1
+        },
+        {
+            "fieldname": "activity_number",
+            "fieldtype": "Data",
+            "label": "Activity Number",
+            "reqd": 1
+        },
+        {
+            "fieldname": "sandbox_mode",
+            "fieldtype": "Check",
+            "label": "Sandbox/Test Mode"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ]
+}

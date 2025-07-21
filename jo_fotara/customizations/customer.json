@@ -1,0 +1,56 @@
+[
+    {
+        "doctype": "Custom Field",
+        "dt": "Customer",
+        "label": "JoFotara Tax ID",
+        "fieldname": "jofotara_tax_id",
+        "fieldtype": "Data",
+        "insert_after": "tax_id",
+        "reqd": 0
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Customer",
+        "label": "JoFotara National ID",
+        "fieldname": "jofotara_national_id",
+        "fieldtype": "Data",
+        "insert_after": "jofotara_tax_id",
+        "reqd": 0
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Customer",
+        "label": "JoFotara Passport No",
+        "fieldname": "jofotara_passport_no",
+        "fieldtype": "Data",
+        "insert_after": "jofotara_national_id",
+        "reqd": 0
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Customer",
+        "label": "JoFotara City",
+        "fieldname": "jofotara_city",
+        "fieldtype": "Data",
+        "insert_after": "jofotara_passport_no",
+        "reqd": 0
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Customer",
+        "label": "JoFotara State",
+        "fieldname": "jofotara_state",
+        "fieldtype": "Data",
+        "insert_after": "jofotara_city",
+        "reqd": 0
+    },
+    {
+        "doctype": "Custom Field",
+        "dt": "Customer",
+        "label": "JoFotara ZIP",
+        "fieldname": "jofotara_zip",
+        "fieldtype": "Data",
+        "insert_after": "jofotara_state",
+        "reqd": 0
+    }
+]
